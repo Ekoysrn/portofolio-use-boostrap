@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my portofolio</title>
+    <link rel="icon" type="image/x-icon" href="asset/5.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- svg from boostrap -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="circle-half" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16" fill="currentColor">
+            <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z">
+            </path>
+            <path
+                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z">
+            </path>
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16" fill="currentColor">
+            <path
+                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
+            </path>
+        </symbol>
+    </svg>
+
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secndary fixed-top" style="background-color:#255c61;">
+        <div class="container">
+            <a class="navbar-brand" href="#" >My Portofolio</a>
+            <a class="navbar-brand" id="time" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#about">about</a>
+                    <a class="nav-link" href="#project">Product</a>
+                    <a class="nav-link" href="#contact">contact</a>
+                    <li class="nav-item dropdown">
+                        <button
+                            class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                            id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-label="Toggle theme (dark)">
+                            <svg class="bi my-1 theme-icon-active">
+                                <use href="#moon-stars-fill"></use>
+                            </svg>
+                            <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center"
+                                    data-bs-theme-value="light" aria-pressed="false">
+                                    <svg class="bi me-2 opacity-50">
+                                        <use href="#sun-fill"></use>
+                                    </svg>
+                                    Light
+                                    <svg class="bi ms-auto d-none">
+                                        <use href="#check2"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center active"
+                                    data-bs-theme-value="dark" aria-pressed="true">
+                                    <svg class="bi me-2 opacity-50">
+                                        <use href="#moon-stars-fill"></use>
+                                    </svg>
+                                    Dark
+                                    <svg class="bi ms-auto d-none">
+                                        <use href="#check2"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center"
+                                    data-bs-theme-value="auto" aria-pressed="false">
+                                    <svg class="bi me-2 opacity-50">
+                                        <use href="#circle-half"></use>
+                                    </svg>
+                                    Auto
+                                    <svg class="bi ms-auto d-none">
+                                        <use href="#check2"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- profil content start -->
+    <div class="container-fluid p-5" style="background-image:linear-gradient(#255c61 10%,#0000)">
+        <section id="picture" class="text-center">
+            <img src="asset/IMG_20231102_164755_898.jpg" alt="programers"
+                class="img-thumbnail rounded-circle rounded mx-auto d-block mt-5" style="width:225px">
+            <h1>Eko Yusron Ardiyansyah</h1>
+            <h5>I am <span id="type"></span></h5>
+        </section>
+    </div>
+    <!-- profil content end -->
+
+    <!-- content about start -->
+    <div class="container" id="about">
+        <section class="text-center pt-5">
+            <h1>About Me</h1>
+            <p>I am a Sofware Engineer Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dignissimos lorem20, and iam now is still styding programing
+            </p>
+        </section>
+    </div>
+    <!-- content about end -->
+
+    <!-- content tech stack start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center p-5">Tech Stack</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white" style="background-color: #255c61;">
+                            <h6 class="text-center">HTML</h6>
+                        </div>
+                        <div
+                            class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
+                            <img src="https://portfolio-revansps-projects.vercel.app/public/images/HTML5.png"
+                                alt="html logo" style="height: 100px;" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white" style="background-color: #255c61;">
+                            <h6 class="text-center">CSS</h6>
+                        </div>
+                        <div
+                            class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
+                            <img src="https://portfolio-revansps-projects.vercel.app/public/images/CSS3.png"
+                                alt="css logo" style="height: 100px;" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white" style="background-color: #255c61;">
+                            <h6 class="text-center">BOOSTRAP 5</h6>
+                        </div>
+                        <div
+                            class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
+                            <img src="https://portfolio-revansps-projects.vercel.app/public/images/Bootstrap.png"
+                                alt="css logo" style="height: 100px;" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white" style="background-color: #255c61;">
+                            <h6 class="text-center">JAVASCRIPT</h6>
+                        </div>
+
+                        <div
+                            class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
+                            <img src="https://portfolio-revansps-projects.vercel.app/public/images/JavaScript.png"
+                                alt="css logo" style="height: 100px;" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content tech stack end -->
+
+    <!-- content project start -->
+    <div class="container-fluid mx-auto">
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="project">
+                        <h1 class="text-center mt-5">My Project</h1>
+                        <p class="text-center">project ini adalah hasil selama belajar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="row d-flex justify-content-center mx-auto">
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card  rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/article.png" class="card-img-top" alt="simple article website">
+                            <div class="card-body">
+                                <h5 class="card-title">Simple Article</h5>
+                                <p class="card-text">this website about me learning the basic html css property like
+                                    margin
+                                    pading
+                                    etc.
+                                </p>
+                                <a href="https://ekoysrn.github.io/basic-article-css/" target="_blank"
+                                    class="demoBtn">Go
+                                    Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/scroling.png" class="card-img-top" alt="beautifull earth">
+                            <div class="card-body">
+                                <h5 class="card-title">The beutifull of earth</h5>
+                                <p class="card-text">this website about me learning basic the css 3 like tranform
+                                    transition
+                                    opacity
+                                    etc in w3school.</p>
+                                <a href="https://ekoysrn.github.io/beautiful-earth/" target="_blank" class="demoBtn">Go
+                                    Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/galerry.png" class="card-img-top" alt="gallery">
+                            <div class="card-body">
+                                <h5 class="card-title">gallery</h5>
+                                <p class="card-text">this website about me learning the basic html css property for
+                                    display the
+                                    gallery
+                                    image</p>
+                                <a href="#" target="_blank" class="demoBtn">Go link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/mp.png" class="card-img-top" alt="gallery">
+                            <div class="card-body">
+                                <h5 class="card-title">gallery</h5>
+                                <p class="card-text">this website about me learning the framwork css like boostrap versi
+                                    5</p>
+                                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                                    link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/companyProfile.png" class="card-img-top" alt="gallery">
+                            <div class="card-body">
+                                <h5 class="card-title">Company Profile</h5>
+                                <p class="card-text">this website colaboration with rumah impian codeAcademy, we build
+                                    the company profile for company operate on real estate</p>
+                                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                                    link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/suit.png" class="card-img-top" alt="gallery">
+                            <div class="card-body">
+                                <h5 class="card-title">suit game</h5>
+                                <p class="card-text">this website colaboration with rumah impian codeAcademy, we build
+                                    the company profile for company operate on real estate</p>
+                                <a href="https://simple-suit-game.vercel.app/" target="_blank" class="demoBtn">Go
+                                    link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 col-sm-12">
+                        <div class="card rounded-2" style="width: 18rem;height:25rem">
+                            <img src="asset/loginPage.png" class="card-img-top" alt="gallery">
+                            <div class="card-body">
+                                <h5 class="card-title">simple login page</h5>
+                                <p class="card-text">this website colaboration with rumah impian codeAcademy, we build
+                                    the company profile for company operate on real estate</p>
+                                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                                    link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content project end -->
+    <div class="contact" style="background-image:linear-gradient(#0000 ,#255c61)">
+        <h1 class="text-center mt-5" id="contact">Contact Me</h1>
+        <p class="text-center">kritik dan saran dipersilahkan, terima kasih </p>
+        <div class="container-fluid w-50">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-success w-100 mb-5">Send</button>
+        </div>
+        <!-- footer start -->
+        <footer class="container-fluid d-flex justify-content-center align-items-center"
+            style="position:relative; bottom:0;left:0;background-color:#255c61;height:100px;font-weight:700">
+            <ul class="d-flex text-center sosmed">
+                <li class="ico">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="link-light link-offset-2 link-underline link-underline-opacity-0" target="_blank"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                        stroke-linejoin="round" height="24" width="24" xmlns="http://www.w3.org/2000/svg"
+                        href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    </a>
+                </li>
+                <li class="ico">
+                    <a href="https://www.linkedin.com/in/eko-yusron-b8b65328b/" class="link-light link-offset-2 link-underline link-underline-opacity-0" target="_blank"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                        stroke-linejoin="round" height="24" width="24" xmlns="http://www.w3.org/2000/svg"
+                        href="">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg></a>
+                </li>
+                <li class="ico">
+                    <a href="https://github.com/Ekoysrn" class="link-light link-offset-2 link-underline link-underline-opacity-0" target="_blank"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                        stroke-linejoin="round" height="24" width="24" xmlns="http://www.w3.org/2000/svg"
+                        href="https://github.com/Ekoysrn">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-center position-absolute bottom-0">&copy;2024 Eko Yusron Ardiyansyah copyright all rights reserved</p>
+        </footer>
+        <!-- footer end -->
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
