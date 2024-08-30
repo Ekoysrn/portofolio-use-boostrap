@@ -1,9 +1,6 @@
-*{
-    font-family: "Manrope", sans-serif;
-
+* {
+  font-family: "Manrope", sans-serif;
 }
-
-
 
 /* .card-body{
     transition: 0.3 ease-in-out;
@@ -28,79 +25,92 @@
 } */
 
 /* dropdown color */
-.dropdown-item.active, .dropdown-item:active {
-    text-decoration: none;
-    background-color: #255C61;
+.dropdown-item.active,
+.dropdown-item:active {
+  text-decoration: none;
+  background-color: #255c61;
 }
 
 /* styling svg */
-svg{
-    width:16px;
-    height: 16px;
-    background-color:transparent;
+svg {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
 }
 
 /* card styling */
-.card:hover{
-    transition: 0.3 ease-in-out;
-    border-image-slice: 1;
-    border-width: 1px;
-    border-image-source: linear-gradient(to right, #56B4D3  ,#3CA55C, #B5AC49  , #3CA55C);
-    text-align: center;
-    transition:0.3 ease-in;
-    border-radius: 10px !important;
+.card:hover {
+  transition: 0.3 ease-in-out;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(
+    to right,
+    #56b4d3,
+    #3ca55c,
+    #b5ac49,
+    #3ca55c
+  );
+  text-align: center;
+  transition: 0.3 ease-in;
+  border-radius: 10px !important;
 }
 
 /* time style */
-#time{
-    margin-top: 3px;
-    font-size: 14px;
+#time {
+  margin-top: 3px;
+  font-size: 14px;
 }
-
 
 /* btn project */
-.demoBtn{
-    width:60%;
-    background-image: linear-gradient(to right, #255C61 0%, #373B44  51%, #255C61  100%);
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
-    border-radius: 5px;
-    text-decoration:none;
-    font-size: 1em;
-    font-weight: 600;
+.demoBtn {
+  width: 60%;
+  background-image: linear-gradient(
+    to right,
+    #255c61 0%,
+    #373b44 51%,
+    #255c61 100%
+  );
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  position: absolute;
+  bottom:0;
+  right:50px;
 }
 
-
 .demoBtn:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 /* footer  */
-.sosmed{
-    list-style-type: none;
-    display: flex;
+.sosmed {
+  list-style-type: none;
+  display: flex;
 }
 
-footer{
-    color:#fff;
+footer {
+  color: #fff;
 }
 
-.ico{
-    margin-right:9px;
-    cursor: pointer;
+.ico {
+  margin-right: 9px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
-    .ico{
-        margin-right:9px;
-        margin-bottom: 50px;
-        cursor: pointer;
-    }
+  .ico {
+    margin-right: 9px;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
 }
