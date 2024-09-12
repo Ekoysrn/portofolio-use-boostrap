@@ -100,11 +100,11 @@ function updateImageTheme(selectedTheme) {
         : "light"
       : selectedTheme;
 
-  if (most) {
-    if (theme === "light") {
-      most.src = most.src.replace(/&theme=dark/, "");
-    }
-  }
+  // if (most) {
+  //   if (theme === "light") {
+  //     most.src = most.src.replace(/&theme=dark/, "");
+  //   }
+  // }
 
   images.forEach((img) => {
     if (img.src.includes("?theme=")) {
