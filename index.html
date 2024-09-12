@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <!-- svg from boostrap -->
+  <!-- svg togle dark/light mode from boostrap -->
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="circle-half" viewBox="0 0 16 16" fill="currentColor">
       <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
@@ -37,9 +37,10 @@
       </path>
     </symbol>
   </svg>
-
+  <!-- end -->
+<!-- 255c61 -->
   <!-- header start -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secndary fixed-top" style="background-color:#255c61;">
+  <nav class="navbar navbar-expand-lg navbar-light fw-medium bg-secndary fixed-top" style="background-color:transparent;backdrop-filter: blur(200px);">
     <div class="container">
       <a class="navbar-brand" href="#">My Portofolio</a>
       <a class="navbar-brand" id="time" href="#"></a>
@@ -122,8 +123,9 @@
 
   <!-- content about start -->
   <div class="container" id="about">
-    <section class="text-center pt-5">
-      <h1>About Me</h1>
+    <section class="text-center 
+    ">
+      <h1 class="my-5">About Me</h1>
       <p>I am a Sofware Engineer Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dignissimos lorem20,
         and iam now is still styding programing
       </p>
@@ -132,118 +134,30 @@
   <!-- content about end -->
 
   <!-- content tech stack start -->
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="text-center p-5">Tech Stack</h1>
-        </div>
-      </div>
+  <div class="techstack mt-5">
+    <div class="text-center">
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Language/HTML5?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Language/CSS?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Language/JavaScript?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Language/Php?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Framework/Bootstrap?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Library/jQuery?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Database/MySQL?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Software/Git?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Design/Figma?theme=dark" />
+      <img class="techs" src="https://svgl-badge.vercel.app/api/Software/Visual%20Studio%20Code?theme=dark" />
+    </div>
+    <br>
 
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">HTML</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/HTML5.png" alt="html logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">CSS</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/CSS3.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">JAVASCRIPT</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/JavaScript.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">PHP</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/PHP.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="mt-3 col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">BOOSTRAP 5</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/Bootstrap.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="mt-3 col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">Git</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/Git.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="mt-3 col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">Visual Studio Code</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/VSCode.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="mt-3 col-md-3">
-          <div class="card">
-            <div class="card-header text-center text-white" style="background-color: #255c61;">
-              <h6 class="text-center">GitHub</h6>
-            </div>
-            <div
-              class="card-body d-flex text-center align-items-center justify-content-center p-5 text-center w-100 mb-md-3">
-              <img src="https://portfolio-revansps-projects.vercel.app/public/images/GitHub.png" alt="css logo"
-                style="height: 100px;" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="text-center cardtech">
+      <img class="most"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekoysrn&locale=en&layout=compact&theme=dark&hide_border=true&card_width=800" />
     </div>
   </div>
   <!-- content tech stack end -->
 
   <!-- content project start -->
-  <div class="container-fluid mx-auto">
+  <div class="project container-fluid mx-auto">
     <div class="container mx-auto">
       <div class="row">
         <div class="col-md-12">
@@ -253,105 +167,108 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid text-center">
-        <div class="row d-flex justify-content-center mx-auto">
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card  rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/article.png" class="card-img-top" alt="simple article website">
-              <div class="card-body">
-                <h5 class="card-title">Simple Article</h5>
-                <p class="card-text">this website about me learning the basic html css property like
-                  margin
-                  pading
-                  etc.
-                </p>
-                <a href="https://ekoysrn.github.io/basic-article-css/" target="_blank" class="demoBtn">Go
-                  Link</a>
+      <div class="container justify-content-center align-items-center">
+        <div class="text-center container-fluid w-100">
+          <div class="row justify-content-center mx-auto text-center">
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card  rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/article.png" class="card-img-top" alt="simple article website">
+                <div class="card-body">
+                  <h5 class="card-title">Simple Article</h5>
+                  <p class="card-text">this website about me learning the basic html css property like
+                    margin
+                    pading
+                    etc.
+                  </p>
+                  <a href="https://ekoysrn.github.io/basic-article-css/" target="_blank" class="demoBtn">Go
+                    Link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/scroling.png" class="card-img-top" alt="beautifull earth">
-              <div class="card-body">
-                <h5 class="card-title">The beutifull of earth</h5>
-                <p class="card-text">this website about me learning basic the css 3 like tranform
-                  transition
-                  opacity
-                  etc in w3school.</p>
-                <a href="https://ekoysrn.github.io/beautiful-earth/" target="_blank" class="demoBtn">Go
-                  Link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/scroling.png" class="card-img-top" alt="beautifull earth">
+                <div class="card-body">
+                  <h5 class="card-title">The beutifull of earth</h5>
+                  <p class="card-text">this website about me learning basic the css 3 like tranform
+                    transition
+                    opacity
+                    etc in w3school.</p>
+                  <a href="https://ekoysrn.github.io/beautiful-earth/" target="_blank" class="demoBtn">Go
+                    Link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/galerry.png" class="card-img-top" alt="gallery">
-              <div class="card-body">
-                <h5 class="card-title">gallery</h5>
-                <p class="card-text">this website about me learning the basic html css property for
-                  display the
-                  gallery
-                  image</p>
-                <a href="#" target="_blank" class="demoBtn">Go link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/galerry.png" class="card-img-top" alt="gallery">
+                <div class="card-body">
+                  <h5 class="card-title">gallery</h5>
+                  <p class="card-text">this website about me learning the basic html css property for
+                    display the
+                    gallery
+                    image</p>
+                  <a href="#" target="_blank" class="demoBtn">Go link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/mp.png" class="card-img-top" alt="gallery">
-              <div class="card-body">
-                <h5 class="card-title">gallery</h5>
-                <p class="card-text">this website about me learning the framwork css like boostrap versi
-                  5</p>
-                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
-                  link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/mp.png" class="card-img-top" alt="gallery">
+                <div class="card-body">
+                  <h5 class="card-title">gallery</h5>
+                  <p class="card-text">this website about me learning the framwork css like boostrap versi
+                    5</p>
+                  <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                    link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/companyProfile.png" class="card-img-top" alt="gallery">
-              <div class="card-body">
-                <h5 class="card-title">Company Profile</h5>
-                <p class="card-text">this website colaboration with rumah impian codeAcademy, we build
-                  the company profile for company operate on real estate</p>
-                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
-                  link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/companyProfile.png" class="card-img-top" alt="gallery">
+                <div class="card-body">
+                  <h5 class="card-title">Company Profile</h5>
+                  <p class="card-text">this website colaboration with rumah impian codeAcademy, we build
+                    the company profile for company operate on real estate</p>
+                  <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                    link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/suit.png" class="card-img-top" alt="gallery">
-              <div class="card-body">
-                <h5 class="card-title">suit game</h5>
-                <p class="card-text">this website use for playing suit game, this website is fun for playing</p>
-                <a href="https://simple-suit-game.vercel.app/" target="_blank" class="demoBtn">Go
-                  link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/suit.png" class="card-img-top" alt="gallery">
+                <div class="card-body">
+                  <h5 class="card-title">suit game</h5>
+                  <p class="card-text">this website use for playing suit game, this website is fun for playing</p>
+                  <a href="https://simple-suit-game.vercel.app/" target="_blank" class="demoBtn">Go
+                    link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/phpdb.png" class="card-img-top" alt="gallery">
-              <div class="card-body">
-                <h5 class="card-title">website to manage member</h5>
-                <p class="card-text">this website to manage member, tech stack use php and database mysqli</p>
-                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
-                  link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/phpdb.png" class="card-img-top" alt="gallery">
+                <div class="card-body">
+                  <h5 class="card-title">website to manage member</h5>
+                  <p class="card-text">this website to manage member, tech stack use php and database mysqli</p>
+                  <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                    link</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 mt-3 col-sm-12">
-            <div class="card rounded-2" style="width: 18rem;height:25rem">
-              <img src="asset/exophone.png" class="card-img-top" alt="gallery">
-              <div class="card-body">
-                <h5 class="card-title">website for review smartphone news</h5>
-                <p class="card-text">exophone is a company smartphone news,website was created to meet costumer needs regarding the latest smartphone news,
-                </p>
-                <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
-                  link</a>
+            <div class="col-md-3 mt-3 col-sm-12">
+              <div class="card rounded-2" style="width: 18rem;height:25rem">
+                <img src="asset/exophone.png" class="card-img-top" alt="gallery">
+                <div class="card-body">
+                  <h5 class="card-title">website for review smartphone news</h5>
+                  <p class="card-text">exophone is a company smartphone news,website was created to meet costumer needs
+                    regarding the latest smartphone news,
+                  </p>
+                  <a href="http://127.0.0.1:5501/index.html" target="_blank" class="demoBtn">Go
+                    link</a>
+                </div>
               </div>
             </div>
           </div>
@@ -360,6 +277,8 @@
     </div>
   </div>
   <!-- content project end -->
+
+  <!-- contact start -->
   <div class="contact" style="background-image:linear-gradient(#0000 ,#255c61)">
     <h1 class="text-center mt-5" id="contact">Contact Me</h1>
     <p class="text-center">kritik dan saran dipersilahkan, terima kasih </p>
@@ -376,8 +295,12 @@
         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button class="btn btn-success w-100 mb-5" type="submit"><a class="link-offset-2 link-light link-underline link-underline-opacity-10" href="https://wa.me/0895363271725">Send</a></button>
+      <button class="btn btn-success w-100 mb-5" type="submit"><a
+          class="link-offset-2 link-light link-underline link-underline-opacity-10"
+          href="https://wa.me/895363271725">Send</a></button>
     </div>
+    <!-- contact end -->
+
     <!-- footer start -->
     <footer class="container-fluid d-flex justify-content-center align-items-center"
       style="position:relative; bottom:0;left:0;background-color:#255c61;height:100px;font-weight:700">

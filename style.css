@@ -2,28 +2,6 @@
   font-family: "Manrope", sans-serif;
 }
 
-/* .card-body{
-    transition: 0.3 ease-in-out;
-    border: 10px solid;
-    border-image-slice: 0;
-    border-width: 0.9px;
-    border-image-source: linear-gradient(to right, rgb(201, 50, 50), yellow, green);
-    text-align: center;
-    transition:0.3 ease-in;
-}
-
-
-
-
-.card-body:hover{
-    transition: 0.3 ease-in-out;
-    border-image-slice: 1;
-    border-width: 0.9px;
-    border-image-source: linear-gradient(to right,purple, rgb(228, 15, 15),orange, yellow,blue, green);
-    text-align: center;
-    transition:0.3 ease-in;
-} */
-
 /* dropdown color */
 .dropdown-item.active,
 .dropdown-item:active {
@@ -112,5 +90,17 @@ footer {
     margin-right: 9px;
     margin-bottom: 50px;
     cursor: pointer;
+  }
+
+  footer p{
+    font-size: .9rem;
+  }
+
+  .contact .container-fluid{
+    width: 100% !important;
+  }
+
+  .cardtech img{
+    width: 90%;
   }
 }
